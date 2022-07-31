@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-image: url(/img/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 750px;
+}
+header, 
+nav, 
+ul, 
+nav>ul>li{
+    display: inline-block;
+    
+}
+header, nav{
+    background-color: #b8cb21;
+    width: 750px;
+}
+nav>ul, a{
+    float: right;
+    color: #2c4106;
+    margin: 10px;
+    font-size: large;
+    
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+}
+
+header{
+    padding: 10px;
+}
+
+.imgfloat{
+    float: left;
+    width: 250px;
+}
+
+span{
+    float: right;
+}
+.clearfloat{
+    clear: both;
+}
+h2{
+    color: #b8cb21;
+}
