@@ -6,15 +6,12 @@ body{
     margin: auto;
     width: 750px;
 }
-header, 
+
 nav, 
 ul, 
 nav>ul>li{
     display: inline-block;
     
-}
-.cont
-
 }
 header, nav{
     background-color: #b8cb21;
@@ -24,9 +21,13 @@ nav>ul, a{
     float: right;
     color: #2c4106;
     margin: 10px;
-    font-size: large;
-    
+    font-size: large;  
 }
+.container {
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+  }
 
 main{
     background-color: white;
@@ -34,7 +35,8 @@ main{
 }
 
 header{
-    padding: 10px;
+    overflow: auto;
+    background-color: #b8cb21;
 }
 
 .imgfloat{
