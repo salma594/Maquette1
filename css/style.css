@@ -1,3 +1,7 @@
+@font-face{
+  font-family: Oswald-Regular;
+  src: url(/font/oswald/Oswald-Regular.ttf);
+}
 body{
     margin: 0;
     background-image: url(/img/fond.png);
