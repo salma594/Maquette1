@@ -1,93 +1,102 @@
-@font-face{
-  font-family: Oswald-Regular;
-  src: url(/font/oswald/Oswald-Regular.ttf);
+@font-face {
+  src: url(../font/oswald/Oswald-Light.ttf);
+  font-family: Oswald;
 }
-body{
-    margin: 0;
-    background-image: url(../img/fond.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    width: 750px;
+body {
+  margin: 0px;
+  background-image: url(../img/fond.png);
 }
 
-nav, 
-ul, 
-nav>ul>li{
-    display: inline-block;
-    
-}
-header, nav{
-    background-color: #b8cb21;
-    width: 750px;
-}
-header{
-    overflow: auto;
-    background-color: #b8cb21;
-    
-}
-
-nav>ul, a{
-    float: right;
-    color: #2c4106;
-    margin: 10px;
-    font-size: large;  
+nav,
+nav > ul,
+nav > ul > li {
+  display: inline-block;
 }
 .container {
-    max-width: 750px;
-    margin: auto;
-    background-color: white;
-  }
-
-main{
-    background-color: white;
-    padding: 10px;
+  max-width: 750px;
+  margin: auto;
+  background-color: white;
+}
+nav {
+  float: right;
+  margin: 40px;
+  font-size: 1em;
 }
 
-.imgfloat{
-    float: left;
-    width: 250px;
+header {
+  overflow: auto;
+  background-color: #b8cb21;
 }
 
-.clearfloat{
-    clear: both;
+a {
+  color: #2b4321;
+  padding: 10px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-family: Oswald;
 }
-h2{
-    color: #b8cb21;
+
+.picwho {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
 }
+.picwhat {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+}
+.clear {
+  clear: both;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #b8cb21;
+  font-family: Oswald;
+}
+
 .button {
-    float: right;
-    height: 40px;
-    border: #b8cb21 solid 5px;
-    background-color: #b8cb21;
-    color: white;
-    font-size: medium;
-  }
+  float: right;
+  height: 40px;
+  border: #b8cb21 solid 5px;
+  background-color: #b8cb21;
+  color: white;
+  font-size: medium;
+}
 
-  .buttontwo{
-    float: right;
-    height: 40px;
-    border: #b8cb21 solid 5px;
-    background-color: #b8cb21;
-    color: white;
-    font-size: medium;
-    margin: 14px;
-  }
+.button2 {
+  float: right;
+  height: 40px;
+  border: #b8cb21 solid 5px;
+  background-color: #b8cb21;
+  color: white;
+  font-size: medium;
+  margin: 15px;
+}
 
-  .section3 {
-    overflow: auto;
-    margin: 30px;
-  }
-  .margine {
-    margin: 30px;
-  }
-  .footerlogo{
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: auto;
-    padding: 10px;
-  }
-  .center{
-    text-align: center;
-  }
+.section3 {
+  overflow: auto;
+  margin: 30px;
+}
+
+.margine {
+  margin: 30px;
+}
+
+.academylogo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.paragraph {
+  padding: 10px;
+  margin: 10px;
+  display: block;
+}
