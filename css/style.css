@@ -43,11 +43,6 @@ main{
     padding: 10px;
 }
 
-header{
-    overflow: auto;
-    background-color: #b8cb21;
-}
-
 .imgfloat{
     float: left;
     width: 250px;
