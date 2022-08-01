@@ -17,6 +17,11 @@ header, nav{
     background-color: #b8cb21;
     width: 750px;
 }
+header{
+    overflow: auto;
+    background-color: #b8cb21;
+}
+
 nav>ul, a{
     float: right;
     color: #2c4106;
@@ -44,12 +49,45 @@ header{
     width: 250px;
 }
 
-span{
-    float: right;
-}
 .clearfloat{
     clear: both;
 }
 h2{
     color: #b8cb21;
 }
+.button {
+    float: right;
+    height: 40px;
+    border: #b8cb21 solid 5px;
+    background-color: #b8cb21;
+    color: white;
+    font-size: medium;
+  }
+
+  .buttontwo{
+    float: right;
+    height: 40px;
+    border: #b8cb21 solid 5px;
+    background-color: #b8cb21;
+    color: white;
+    font-size: medium;
+    margin: 14px;
+  }
+
+  .section3 {
+    overflow: auto;
+    margin: 30px;
+  }
+  .margine {
+    margin: 30px;
+  }
+  .footerlogo{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  .center{
+    text-align: center;
+  }
